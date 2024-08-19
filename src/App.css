@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background-color: #292929;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #333;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+th {
+    background-color: #3a3a3a;
+    color: #f0f0f0;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+td {
+    font-size: 1em;
+}
+
+tr:hover {
+    background-color: #404040;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #2b2b2b;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #343434;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* Button (Optional) */
+button {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.search-container {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-container input[type='text'] {
+    /* width: 40; */
+    /* padding: 10px; */
+    padding: 10px 20px;
+    border-radius:  0;
+    /* border-radius: 5px 0 0 5px; */
+    border: 1px solid #444;
+    background-color: #333;
+    color: #e0e0e0;
+    outline: none;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+.search-container input[type='text']::placeholder {
+    color: #888;
+}
+
+.search-container input[type='text']:focus {
+    border-color: #666;
+}
+
+.search-container button {
+    width: 1;
+    padding: 10px 20px;
+    border-radius:  0;
+    border: 1px solid #444;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #45a049;
+    border-color: #666;
+}
+
+
